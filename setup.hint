@@ -1,0 +1,4 @@
+category: Graphics Text
+requires: chmlib htmldoc python python-beautifulsoup python-chm
+sdesc: "Converts CHM (MS HTML Help) to PDF"
+ldesc: "A Python script that converts a CHM file into a single PDF file."
