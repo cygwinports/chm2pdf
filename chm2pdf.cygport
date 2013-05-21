@@ -1,0 +1,17 @@
+inherit distutils
+
+NAME="chm2pdf"
+VERSION=0.9.1
+RELEASE=3
+CATEGORY="Graphics Text"
+SUMMARY="Converts CHM (MS HTML Help) to PDF"
+DESCRIPTION="A Python script that converts a CHM file into a single PDF file."
+HOMEPAGE="http://code.google.com/p/chm2pdf/"
+SRC_URI="http://chm2pdf.googlecode.com/files/${P}.tar.gz"
+PATCH_URI="
+	http://pkgs.fedoraproject.org/cgit/chm2pdf.git/plain/chm2pdf_insecure_tempdirs.patch
+	http://pkgs.fedoraproject.org/cgit/chm2pdf.git/plain/chm2pdf-0.9.1_space.patch
+	http://pkgs.fedoraproject.org/cgit/chm2pdf.git/plain/chm2pdf-0.9.1-shellquote.patch
+"
+
+REQUIRES="chmlib htmldoc"
