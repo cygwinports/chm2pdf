@@ -14,4 +14,6 @@ PATCH_URI="
 	http://pkgs.fedoraproject.org/cgit/chm2pdf.git/plain/chm2pdf-0.9.1-shellquote.patch
 "
 
+ARCH=noarch
+
 REQUIRES="chmlib htmldoc"
